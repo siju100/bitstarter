@@ -1,5 +1,5 @@
 var fs = require("fs");
-var fileName = "index.html";
+var fileName = "./index.html";
 fs.exists(fileName, function(exists) {
   if (exists) {
     fs.stat(fileName, function(error, stats) {
