@@ -1,9 +1,4 @@
-var fs = require('fs');
-var express = require('express');
-
-var app = express.createServer(express.logger());
-var buf = fs.readFileSync('index.html','utf-8');
-var string = buf.toString();
-app.get('/', function(request, response) {
-  response.send(string);
-});
+var fs = require("fs");
+var buf = fs.readFileSync('./index.html','utf8')
+var data= buf.toString();
+console.log(data); 
