@@ -14,5 +14,5 @@
     ".subheading": true,
     ".thermometer": true,
     ".video": true,
-    "hi": false
+    "h1": true
 }
